@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8; /* Light gray background color */
+    color: #333; /* Dark gray text color */;
+    margin: 50px; 
+    padding: 50px;
+    background-color: antiquewhite;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(relaxing-cat.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.Container {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.Header_2 {
+    background-color: rgba(255, 238, 0, 0.267);
+    color:aliceblue;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.Header_3 {
+    background-color: rgba(255, 238, 0, 0.267);
+    color:aliceblue;
+    padding: 0px;
+    text-align: center;
+    font-size:80px;
+    font-weight: 600;
+    font-style: oblique;
+}
+.Border{
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Header{
+    font-size: larger;
+    border: 1px rgb(252, 240, 240);
+    background-color: rgba(6, 12, 12, 0.877);
+    text-align: center;
+    color: brown;
+    -webkit-transition: -webkit-transform 2s;
+    color: transparent;
+    
+    
+    }
+.Header:hover{
+        background: rgba(48, 49, 49, 0.856); /* Slightly darker blue on hover */  
+        -webkit-transform:rotate(-1deg);
+}
+.top_header2{
+    background-color: rgba(6, 12, 12, 0.877);
+    
+}
+#top_header {
+    background-color: rgba(255, 238, 0, 0.267);
+    }
+
+#top_header ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#top_header li {
+    margin: 10px;
+}
+
+#top_header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(235, 235, 233, 0.267);; /* Blue background color */
+    border: none;
+    cursor: pointer;
+}
+
+#top_header button:hover {
+    background: rgba(255, 238, 0, 0.267);
+}
+#PHOTO{
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+#More_Cat{
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.Image{
+    display:inline-flex;
+    border: 3px solid brown;
+    border-width: 5px;
+    border-radius: 5px;
+    height: 900px;
+    width: 900px;
+}
+#Cats{
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+#Love{
+    font-size: 1000px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+#Lasagna{
+    font-size: 1000px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.Image2{
+    display:inline-flex;
+    border: 3px solid brown;
+    border-width: 5px;
+    border-radius: 5px;
+    height: 255px;
+    width: 310px;
+}
+#Top{
+    font-size: 1000px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.Treatment{
+    font-size: 1000px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+#Image3{
+    display:inline-flex;
+    border: 3px solid brown;
+    border-width: 5px;
+    border-radius: 5px;
+    height: 255px;
+    width: 410px;
+}
+#Hate{
+    font-size: 1000px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+#twitter{
+    background-color: rgb(76, 0, 255);
+    font-size: 20px;
+    border-radius: 100px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    cursor:pointer;
+    border: none;
+    padding: 2px;
+    margin: 4px;
+    transition: background-color 2s, 
+        color 2s;
+}
+#twitter:hover{
+        background: rgba(20, 245, 245, 0.856); /* Slightly darker blue on hover */  
+        -webkit-transform:rotate(-1deg);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+#youtube{
+    background-color: rgb(255, 51, 0);
+    font-size: 20px;
+    border-radius: 100px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    height: 80px;
+    width: 120px;
+    cursor:pointer;
+    border: none;
+    padding: 2px;
+    margin: 4px;
+    transition: background-color 2s, 
+        color 2s;
+}
+#youtube:hover{
+    background: rgba(245, 20, 20, 0.856); /* Slightly darker blue on hover */  
+    -webkit-transform:rotate(-1deg);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+#subscribe{
+    background-color: rgb(255, 51, 0);
+    font-size: 20px;
+    border-radius: 100px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    height: 80px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    box-shadow: 5px 5px 5px white(0, 0, 0, 0.15);
+    transition: background-color 2s, 
+        color 2s;
+    padding: 2px;
+    margin: 4px;
+}
+#subscribe:hover{
+    background: rgba(218, 30, 30, 0.856); /* Slightly darker blue on hover */  
+    -webkit-transform:rotate(-1deg);
+    opacity: 1px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}

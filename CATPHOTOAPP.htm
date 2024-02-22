@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A PREVIEW OF CAY PHOTOS">
+    
+    <title>CATPHOTOAPP</title>
+<link rel="stylesheet" href="http://127.0.0.1:5500/style.css?_cacheOverride=1707601622832"></head>
+<body>
+    <div class="Container">
+    <div class="Header">
+    <div class="Header_2"><p></p><h1> WELCOME <p></p></h1></div>
+        <div class="Header_3"><p>CATPHOTOAPP</p></div>
+    </div>
+    <nav id="top_header">
+    <div class="top_header2">
+    <ul>
+        <a href="CATPHOTOAPP.htm" alt="Sorry the link has being removed"><li><button>HOME</button></li></a>
+        <li><button>CATS PICTURES</button></li>
+        <li><button>DOWNLOADS</button></li>
+        <li><button>GALLERY</button></li>
+       <li><button>CONTACT</button></li>
+    </ul></div>
+        
+    </nav>
+    <p></p><h5>Cat Photos</h5><p></p>
+    <p>see more <a href="http://127.0.0.1:5500/More%20Cat%20Photos">cat photo</a> in our gallary</p>
+    <img src="CATPHOTOAPP_files/relaxing-cat.jpg">
+    <p></p><h5>Cat Lists</h5><p></p>
+    <p>Things cats love:</p>
+    <p></p><ul>
+        <li>Cat nip</li>
+        <li>Laser Pointer</li>
+        <li>Lasagna</li>
+    <p><img src="CATPHOTOAPP_files/lasagna.jpg" alt="Cats love lasagna."></p>
+    Cats Love Lasagna.
+    </ul>
+    <p></p>
+    <p></p><h5>Top 3 Things Cats Hate:</h5><p></p>
+    <ol>
+        <li>Flea Treatment</li>
+        <li>Thunder</li>
+        <li>Other Cats</li>
+        </ol>
+    <p><img src="CATPHOTOAPP_files/cats.jpg" alt="Cats hate other cats."></p>
+    Cats <b>hate</b> other cats.
+    <p></p><h2>Cat Form</h2><p></p>
+    <div class="Border">
+    <p>Is your cat an indoor or outdoor cat?</p> 
+    <div class="wrapper">
+        <input type="checkbox" id="click">
+        <label for="click">Indoor</label>
+        <input type="checkbox" id="click">
+        <label for="click">outdoor</label>
+    </div>
+    </div>
+    <p></p><div class="Border 2">
+        <p>What's your cat's personality?</p> 
+        <div class="wrapper 2">
+            <input type="checkbox" id="click">
+            <label for="click">Loving</label>
+            <input type="checkbox" id="click">
+            <label for="click">Lazy</label>
+            <input type="checkbox" id="click">
+            <label for="click">Energetic</label><p></p>
+        </div>
+        </div>
+        <form action="/submit-cat-photo">
+            <input type="text" placeholder="cat photo URL">
+        <button type="submit">Submit</button>
+        </form>
+        <p>No Copyright - <a href="http://127.0.0.1:5500/freecodecamp.com">freecodecamp.org</a></p>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
